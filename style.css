@@ -1,0 +1,92 @@
+@media all {
+    /* Todo el CSS para  Desktop*/
+    /*cuando  es id "#" es para elementos únicos que no se repiten; y  las clases son  para componentes  que se van a repetir  en el 
+    html "." */
+    
+*{
+    font-family:sans-serif ;
+    }
+        h1 { font-size: 60px; 
+            text-align: center; 
+    }
+        h2 { font-size: 30px;
+    }
+    
+    #contPrincipal{
+        width: 400px;
+        margin: 0 auto;
+    }
+    #contTitular{
+        color: rgb(197, 99, 197)
+    }
+    
+    .formulario--fila{
+        margin-bottom: 1rem;
+
+    }
+    input{
+        margin-bottom: 15px;
+        width: 346px;
+        background-color: rgb(226, 226, 226);
+        border-radius: 5px;
+        border: 0px;
+        color: black;
+        font-size: 15px;
+        line-height: 40px;
+
+    }
+
+    .input-email{
+        width: 400px;
+
+    }
+    
+    .align-center {
+        color: rgb(197, 99, 197)
+    }
+    
+    Button{
+        background-color:  rgb(197 99 197 / 66%);
+        width: 400px;
+        border-radius: 5px;
+        border: 0px;
+        line-height: 40px;
+        font-size: 15px;
+        color: rgb(255 255 255)
+
+    }    
+
+    a {
+        margin-bottom: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(197 99 197 / 66%);
+        text-decoration: none;
+        
+    }
+
+    #ojo {
+        width: 50px;
+        
+    }
+    .forgot {
+        text-align: right;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .placeholder{
+        text-align: left;
+
+    }
+ 
+} 
+
+/* Mobile */
+@media (max-width: 768px){
+
+
+   
+
+}
